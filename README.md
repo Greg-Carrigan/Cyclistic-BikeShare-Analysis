@@ -1,5 +1,43 @@
 # Cyclistic-BikeShare-Analysis
-Google data analytics professional certificate case study: Converting casual bikeshare riders to members 
+### Google data analytics professional certificate case study: Converting casual bikeshare riders to members
+
+###### Greg Carrigan 11/21/2022 
+<hr/>
+
+### Case Study Scenario
+
+Cyclistic is a Chicago-based bike-share company that features a network of 5,824 geotracked bicycles and 692 docking stations spread throughout the city as an alternative transportation option. Bikes can be unlocked and returned to any of the available docking stations at any time. Cyclistic offers a variety of bike options for its riders which includes bikes for riders with disabilities. Customers are classified into two categories, members and casual riders. Customers who purchase a single-ride or day pass are referred to as casual riders and those who purchase an annual membership are members. Cyclistic’s customers generally ride more for leisure, however approximately 30% of riders use the bike-share service for their daily commute. Cyclistic’s finance analysts conclude that although a smaller portion of riders makes up annual members, memberships are much more profitable than single-ride and day-pass casual riders.
+
+---
+### ASK
+#### The Business Task
+
+Cyclistic’s marketing analytics team would like to understand how casual riders and members utilize the service differently so that they can devise a marketing campaign to convert casual riders to annual memberships. By analyzing the rider trip data to answer the following questions, Cyclistic’s executive team will consider the recommendations made to strategize the best plan of action to increase profitability through memberships and ensure the future success of the company.
+ 
++ How do members and casual riders use the service differently?
++ Why would casual riders purchase Cyclistic annual memberships?
++ How can Cyclistic use digital marketing to influence casual riders to convert to annual members? 
+
+#### Key Stakeholders
+
++ Cyclistic executive team - The executive team will decide whether to proceed with the recommendations of the marketing analytics team. 
++ Lily Moreno - The director of marketing and my manager. Lily is responsible for developing campaigns and initiatives that promote the bike-share program.
++ Cyclistic marketing anylytics team
+
+---
+### Prepare
+
+#### Data Sources
+
+For the purpose of this case study, 12 months of real bike-share trip data have been provided by Motivate International, Inc. under [this license.](https://www.divvybikes.com/data-license-agreement) The data will be used as if it belonged to the fictional bike-share company, Cyclistic. This public data source will allow for an exploration of real-life data and the creation of an analysis for the project. To protect rider privacy, no personally identifiable information is included in the provided data. The data is housed in 12 separate CSV files, which can be [downloaded here.](https://divvy-tripdata.s3.amazonaws.com/index.html) 
+
+The files were downloaded and saved in two formats: CSV and XLSX. The original data is structured data, with rows representing records and columns representing fields. Each table has an identical primary key field, "ride_id," which serves as a unique identifier for each trip. Each file has a total of 13 fields. 
+
+
+
+##### Does the data ROCCC?
+The data is reliable, original, comprehensive, current and cited. The data was compiled from accurate trip data provided by Motivate International, Inc., the company that originally collected the data about its user’s activities.
+
 
 CREATE TABLE cyclistic-368022.trip_data.year_data_202110_202209 
 (
