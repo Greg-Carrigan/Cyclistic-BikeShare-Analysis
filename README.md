@@ -45,7 +45,8 @@ UNION ALL
 SELECT * FROM `cyclistic-368022.trip_data.202209_trips`
 );
 
-SELECT * FROM `cyclistic-368022.trip_data.year_data_202110_202209`
+SELECT * 
+FROM `cyclistic-368022.trip_data.year_data_202110_202209`
 # 5,828,235 rows displaying which includes nulls
 
 # Creates a table (cleaned_trips_202110_202209) that contains cleaned data only and retains all data within year_data_202110_202209 
@@ -84,7 +85,8 @@ WHERE
 	and end_lng IS NOT NULL
 );
 
-SELECT * FROM `cyclistic-368022.trip_data.cleaned_trips_202110_202209`
+SELECT * 
+FROM `cyclistic-368022.trip_data.cleaned_trips_202110_202209`
 
 # Results removed 1,354,094 rows containing nulls leaving a remaining 4,474,141 rows
 
