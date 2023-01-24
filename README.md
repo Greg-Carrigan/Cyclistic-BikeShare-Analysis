@@ -78,6 +78,6 @@ After making all the necessary changes to the file, I closed Power Query and loa
 
 #### Data Cleaning - Using SQL in BigQuery
 
-To begin the data cleaning process, I created a new project in BigQuery called "cyclistic-368022" and started adding data. Given the large size of the data, I had to create buckets for each of the 12 months of trip data provided by Motivate International, Inc. instead of just importing the data all at once. Once all the files were uploaded to BigQuery, I joined all 12 tables into a single table. The table covered the time period of October 2021 - September 2022. After merging the tables, I ran a Select All statement to make sure that the number of rows matched my previous count of 5,828,235 after importing the data.
+[SQL Code - Data Cleaning File](https://github.com/Greg-Carrigan/Cyclistic-BikeShare-Analysis/blob/320d55fbd3ef39dfe04a21d0b9f303e1401632b9/data_cleaning.sql)
 
 ---
