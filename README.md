@@ -9,7 +9,7 @@
 Cyclistic is a Chicago-based bike-share company that features a network of 5,824 geotracked bicycles and 692 docking stations spread throughout the city as an alternative transportation option. Bikes can be unlocked and returned to any of the available docking stations at any time. Cyclistic offers a variety of bike options for its riders which includes bikes for riders with disabilities. Customers are classified into two categories, members and casual riders. Customers who purchase a single-ride or day pass are referred to as casual riders and those who purchase an annual membership are members. Cyclistic’s customers generally ride more for leisure, however approximately 30% of riders use the bike-share service for their daily commute. Cyclistic’s finance analysts conclude that although a smaller portion of riders makes up annual members, memberships are much more profitable than single-ride and day-pass casual riders.
 
 ---
-### ASK
+### Ask
 #### The Business Task
 
 Cyclistic’s marketing analytics team would like to understand how casual riders and members utilize the service differently so that they can devise a marketing campaign to convert casual riders to annual memberships. By analyzing the rider trip data to answer the following questions, Cyclistic’s executive team will consider the recommendations made to strategize the best plan of action to increase profitability through memberships and ensure the future success of the company.
@@ -79,5 +79,13 @@ After making all the necessary changes to the file, I closed Power Query and loa
 #### Data Cleaning - Using SQL in BigQuery
 
 [SQL Code - Data Cleaning File](https://github.com/Greg-Carrigan/Cyclistic-BikeShare-Analysis/blob/320d55fbd3ef39dfe04a21d0b9f303e1401632b9/data_cleaning.sql)
+
+---
+
+### Analyze & Share
+
+[SQL Code - Analysis File]
+
+##### Tableau Dashboard - [Cyclistic User Behavior](https://public.tableau.com/views/CyclisticUserBehavior/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 ---
