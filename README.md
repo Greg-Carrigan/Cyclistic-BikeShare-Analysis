@@ -88,4 +88,6 @@ After making all the necessary changes to the file, I closed Power Query and loa
 
 ##### Tableau Dashboard - [Cyclistic User Behavior](https://public.tableau.com/views/CyclisticUserBehavior/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
 
+![tableau_dashboard](https://user-images.githubusercontent.com/118931271/214441477-48b3e0ec-ab0e-4185-b984-7c9458262043.PNG)
+
 ---
