@@ -84,7 +84,7 @@ After making all the necessary changes to the file, I closed Power Query and loa
 
 ### Analyze & Share
 
-[SQL Code - Analysis File]
+[SQL Code - Analysis File](https://github.com/Greg-Carrigan/Cyclistic-BikeShare-Analysis/blob/11b62ae461d3298bd4dec8acc4506c2d5959d234/analysis.sql)
 
 ##### Tableau Dashboard - [Cyclistic User Behavior](https://public.tableau.com/views/CyclisticUserBehavior/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
 
