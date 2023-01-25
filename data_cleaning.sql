@@ -1,7 +1,7 @@
 /* To begin the data cleaning process, I created a new project in BigQuery called "cyclistic-368022" and started 
 adding data. Given the large size of the data, I had to create buckets for each of the 12 months of trip data 
 provided by Motivate International, Inc. instead of just importing the data all at once. Once all the files 
-were uploaded to BigQuery, I joined all 12 tables into a single table. The table covered the time period of 
+were uploaded to BigQuery, I joined all 12 tables into a single table. The table covered the period from
 October 2021 - September 2022. After merging the tables, I ran a Select All statement to make sure that the 
 number of rows matched my previous count of 5,828,235 after importing the data. */
 
@@ -80,10 +80,9 @@ CREATE TABLE `cyclistic-368022.trip_data.cleaned_trips_202110_202209`
 );
 
 
-/* In order to populate the cleaned_trips_202110_202209 table, I wrote an "Insert Into" statement that selected all data 
-from the year_data_202110_202209 table. In this statement, I included a "Where Clause" that filtered out all rows 
-containing null values in the columns: start_station_id, start_station_name, end_station_id, end_station_name, start_lat, 
-and end_lat. */
+/* To populate the cleaned_trips_202110_202209 table, I wrote an "Insert Into" statement that selected all data from the 
+year_data_202110_202209 table. In this statement, I included a "Where Clause" that filtered out all rows containing null 
+values in the columns: start_station_id, start_station_name, end_station_id, end_station_name, start_lat, and end_lat. */
 
 /* Given the scope of this case study project, it made the most sense to exclude rows with null or missing values. 
 Unfortunately, since I was unable to contact the responsible parties for this data I would not have the ability to obtain 
@@ -180,8 +179,8 @@ WHERE ride_length_mins <= 1440 -- shows a total of 4,473,842.
 /* Categorize trips into segments - The trip duration was categorized into segments in 15-minute increments. This may provide another 
 data point or possible visualization for later use. */
 
-/* In order to create additional data points for analysis and visualization, the trip duration was grouped into segments of 15-minute 
-increments. This categorization of the data might reveal new insights and patterns. */
+/* To create additional data points for analysis and visualization, the trip duration was grouped into segments of 15-minute increments. 
+This categorization of the data might reveal new insights and patterns. */
 
 
 
