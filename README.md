@@ -103,7 +103,7 @@ After making all the necessary changes to the file, I closed Power Query and loa
 [SQL Code - Analysis File](https://github.com/Greg-Carrigan/Cyclistic-BikeShare-Analysis/blob/11b62ae461d3298bd4dec8acc4506c2d5959d234/analysis.sql)
 
 
-#### Tableau Dashboard - [Cyclistic User Behavior](https://public.tableau.com/views/CyclisticUserBehavior/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
+### Tableau Dashboard - [Cyclistic User Behavior](https://public.tableau.com/views/CyclisticUserBehavior/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 ![tableau_dashboard](https://user-images.githubusercontent.com/118931271/214441477-48b3e0ec-ab0e-4185-b984-7c9458262043.PNG)
 
@@ -118,7 +118,7 @@ In a future analysis of ridership behavior, it may be worthwhile to investigate 
 The seasonal changes had an overall impact on the number of rides taken by both classifications of users, with users taking a larger amount of trips during the warmer months. Rides declined during the winter and fall months in Q1 & Q4. During Q1(2022), a total of 385,289 trips were taken. Of that, 94,905 were by casual users, and 290,384 were by annual members. In Q4(2021), a combined 910,247 casual user and annual member trips were taken. Of that, 304,171 trips were completed by casual users and 606,076 by annual members. Q3(2022) presented as the busiest quarter, with a combined 1,783,150 trips,  802,688 casual users, and 980,462 annual members. Although the total utilization fell during the cooler seasons, annual members still completed a larger share of the trips taken.
 
 
-##### Ride totals by customer type and day of the week
+#### Ride totals by customer type and day of the week
 
 ![ride_totals_by_customertype_weekday_sql](https://user-images.githubusercontent.com/118931271/214700361-cd7fb5b1-1e06-419f-a7ef-81ee5241fd99.PNG)
 
@@ -127,21 +127,21 @@ The seasonal changes had an overall impact on the number of rides taken by both 
 ![ride_totals_by_customertype_weekday_chart](https://user-images.githubusercontent.com/118931271/214695865-e76a6085-77f9-465e-84ca-a796f7e80ed5.PNG)
 
 
-##### Average ride duration by customer type
+#### Average ride duration by customer type
 
 ![avg_ride_duration_customertype_sql](https://user-images.githubusercontent.com/118931271/214700818-3fc16c39-e45e-4ff2-b96c-cccb3fff792f.PNG)
 
 ![avg_ride_duration_customertype_tbl](https://user-images.githubusercontent.com/118931271/214700913-24294d20-8208-4203-baf4-de96e48a4c77.PNG)
 
 
-##### Ride totals by day of week - Days categorized as weekday or weekend
+#### Ride totals by day of week - Days categorized as weekday or weekend
 
 ![ride_totals_by_dow_weekdayname_sql](https://user-images.githubusercontent.com/118931271/214701520-95a0c654-c9d5-4afa-8818-4ef28898203c.PNG)
 
 ![ride_totals_by_dow_weekdayname_tbl](https://user-images.githubusercontent.com/118931271/214701702-41284696-c9e9-44a9-9187-066f0fbb4f07.PNG)
 
 
-##### Total rides by customer type and hour
+#### Total rides by customer type and hour
 ![total_rides_customertype_hour_sql](https://user-images.githubusercontent.com/118931271/214701941-e8826354-29ed-42db-8ce5-b56b2a460b90.PNG)
 
 ![total_rides_customertype_hour_tbl](https://user-images.githubusercontent.com/118931271/214702058-e41dfab6-0f7e-46e9-9684-ff8c0fb93e78.PNG)
@@ -149,41 +149,41 @@ The seasonal changes had an overall impact on the number of rides taken by both 
 ![total_rides_customertype_hour_crt](https://user-images.githubusercontent.com/118931271/214702182-0d620707-8715-4574-b473-e70198e4c633.PNG)
 
 
-##### Total rides by month and customer type
+#### Total rides by month and customer type
 ![image](https://user-images.githubusercontent.com/118931271/214702359-249642c5-2405-4e1d-93b6-2e34a8689e6b.png)
 
 ![image](https://user-images.githubusercontent.com/118931271/214702893-fc437992-eccb-4d3f-80a4-4d81a6c01502.png)
 
 
-##### Rideable type percent by customer type
+#### Rideable type percent by customer type
 ![image](https://user-images.githubusercontent.com/118931271/214703119-1dc281c7-7cc2-4c99-a4f1-ab7c0e41a2be.png)
 
 ![image](https://user-images.githubusercontent.com/118931271/214703178-a78887b1-4fa4-4c95-be79-70de4b064e7e.png)
 
 
-##### Average ride duration by rideable type
+#### Average ride duration by rideable type
 ![image](https://user-images.githubusercontent.com/118931271/214703443-df14dec3-39ea-4a13-aa79-7f51f43a63e5.png)
 
 ![image](https://user-images.githubusercontent.com/118931271/214703525-ad1fe7e1-8036-4d2b-a058-6a9b48d08b58.png)
 
 
-##### Total rides by customer type and rideable type
+#### Total rides by customer type and rideable type
 ![image](https://user-images.githubusercontent.com/118931271/214703812-2190281a-0c23-436f-94bf-5596be840e24.png)
 
 ![image](https://user-images.githubusercontent.com/118931271/214703858-4102734c-5065-413c-9b5f-8efaaf0f0b63.png)
 
 
-##### Top 10 start stations
+#### Top 10 start stations
 ![image](https://user-images.githubusercontent.com/118931271/214703985-53a84f0a-5fca-4e3b-9ac8-0a974765063e.png)
 
 ![image](https://user-images.githubusercontent.com/118931271/214704022-095364b0-af7a-492f-b200-a408a0c34478.png)
 
 
-##### Top 10 end stations
+#### Top 10 end stations
 ![image](https://user-images.githubusercontent.com/118931271/214704135-38b637f4-a1c9-45bc-b4fa-3f6541197383.png)
 
 
-##### Total rides by quarter and customer type
+#### Total rides by quarter and customer type
 	- New column added for quarter/year as Quarter
 	- New view created that includes the quater column
 	
