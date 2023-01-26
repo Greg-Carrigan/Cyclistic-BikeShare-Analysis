@@ -1,3 +1,6 @@
+![image](https://user-images.githubusercontent.com/118931271/214944672-028ed964-f390-470d-b5e9-4860c0cee003.png)
+
+
 # Cyclistic-BikeShare-Analysis
 ### Google data analytics professional certificate case study: Converting casual bikeshare riders to members
 
